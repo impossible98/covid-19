@@ -1742,6 +1742,11 @@ concat-map@0.0.1:
   resolved "http://mirrors.cloud.tencent.com/npm/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
+console@^0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/console/-/console-0.7.2.tgz#f9a4331249291591b7bf9bffa8e205356f20a9f0"
+  integrity sha1-+aQzEkkpFZG3v5v/qOIFNW8gqfA=
+
 constant-case@^3.0.4:
   version "3.0.4"
   resolved "http://mirrors.cloud.tencent.com/npm/constant-case/-/constant-case-3.0.4.tgz#3b84a9aeaf4cf31ec45e6bf5de91bdfb0589faf1"
@@ -1862,7 +1867,7 @@ debug@^3.2.6:
   dependencies:
     ms "^2.1.1"
 
-debug@^4.1.0, debug@^4.1.1, debug@^4.3.3, debug@^4.3.4:
+debug@^4.1.0, debug@^4.1.1, debug@^4.3.4:
   version "4.3.4"
   resolved "http://mirrors.cloud.tencent.com/npm/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -3168,6 +3173,11 @@ path-type@^4.0.0:
   resolved "http://mirrors.cloud.tencent.com/npm/path-type/-/path-type-4.0.0.tgz"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
+pathe@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/pathe/-/pathe-0.2.0.tgz#30fd7bbe0a0d91f0e60bae621f5d19e9e225c339"
+  integrity sha512-sTitTPYnn23esFR3RlqYBWn4c45WGeLcsKzQiUpXJAyfcWkolvlYpV8FLo7JishK946oQwMFUCHXQ9AjGPKExw==
+
 pend@~1.2.0:
   version "1.2.0"
   resolved "https://mirrors.cloud.tencent.com/npm/pend/-/pend-1.2.0.tgz"
@@ -3900,17 +3910,18 @@ vite-plugin-pwa@^0.12.0:
     workbox-build "^6.5.3"
     workbox-window "^6.5.3"
 
-vite-plugin-style-import@^1.0.0:
-  version "1.4.1"
-  resolved "https://mirrors.cloud.tencent.com/npm/vite-plugin-style-import/-/vite-plugin-style-import-1.4.1.tgz#47a66920cce5484640f2faacd73190aac0b91b94"
-  integrity sha512-lJCRvm7+So0hHdnSJiJPg9gD5mxtL6YY0jmhEph+k7ArpsyvqOh6han2kG5htbWWDZxHkUN9d1BuTFL//yCLLQ==
+vite-plugin-style-import@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-style-import/-/vite-plugin-style-import-2.0.0.tgz#edafd9fbb09e8bb5ae67dee8f601afbe386a9969"
+  integrity sha512-qtoHQae5dSUQPo/rYz/8p190VU5y19rtBaeV7ryLa/AYAU/e9CG89NrN/3+k7MR8mJy/GPIu91iJ3zk9foUOSA==
   dependencies:
     "@rollup/pluginutils" "^4.1.2"
     change-case "^4.1.2"
-    debug "^4.3.3"
+    console "^0.7.2"
     es-module-lexer "^0.9.3"
     fs-extra "^10.0.0"
     magic-string "^0.25.7"
+    pathe "^0.2.0"
 
 vite@^2.9.9:
   version "2.9.9"
