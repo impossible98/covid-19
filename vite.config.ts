@@ -33,7 +33,7 @@ export default defineConfig({
     }),
     vue(),
     VitePWA({
-      includeAssets: ["robots.txt"],
+      includeAssets: ["browserconfig.xml", "favicon.ico", "robots.txt", "manifest.webmanifest"],
     }),
   ],
   resolve: {
