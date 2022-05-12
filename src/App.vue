@@ -1,5 +1,5 @@
 <template>
-  <div :style="{ background: `url(${bg})` }" class="box">
+  <div class="box">
     <div style="color:white" class="box-left">
       <div class="box-left-card">
         <section>
@@ -63,14 +63,13 @@
 </template>
   
 <script setup lang='ts'>
-import bg from './assets/1.jpg'
-import { useStore } from './store'
+import { useCovidStore } from '@/store'
 import { onMounted } from 'vue';
 import * as echarts from 'echarts'
 import './assets/china'
-import { geoCoordMap } from './assets/geoMap'
+import { geoCoordMap } from '@/assets/geoMap'
 import 'animate.css'
-const store = useStore()
+const store = useCovidStore()
 
 onMounted(async () => {
   await store.getList()
@@ -273,7 +272,7 @@ const initLine = () => {
 }
 
 </script>
-  
+
 <style lang="less">
 * {
   padding: 0;
