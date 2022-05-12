@@ -1,8 +1,8 @@
+import { getApiList } from "@/api/covid";
 import { defineStore } from "pinia";
-import { getApiList } from "../api/covid";
 import type { Children, ChinaAdd, ChinaTotal, RootObject, StatisGradeCityDetail } from "./type";
 
-export const useStore = defineStore({
+export const useCovidStore = defineStore({
   id: "counter",
   state: () => ({
     list: <RootObject> {},
