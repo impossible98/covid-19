@@ -1251,37 +1251,37 @@
   resolved "http://mirrors.cloud.tencent.com/npm/@vitejs%2fplugin-vue/-/plugin-vue-2.3.3.tgz"
   integrity sha512-SmQLDyhz+6lGJhPELsBdzXGc+AcaT8stgkbiTFGpXPe8Tl1tJaBw1A6pxDqDuRsVkD8uscrkx3hA7QDOoKYtyw==
 
-"@volar/code-gen@0.34.12":
-  version "0.34.12"
-  resolved "http://mirrors.cloud.tencent.com/npm/@volar%2fcode-gen/-/code-gen-0.34.12.tgz"
-  integrity sha512-5GAPsSjScnfMmMoh9qLW7CWQjjnT0fTUsPWnDMMjKIOqQF9J5mOyo7rprt1VzX63zwayqFfx7V8W3EVNhUCE3w==
+"@volar/code-gen@0.34.16":
+  version "0.34.16"
+  resolved "https://registry.yarnpkg.com/@volar/code-gen/-/code-gen-0.34.16.tgz#32885846b51d420ab673c0ec5aa5b6b4f8fd9152"
+  integrity sha512-ep5us1iF66WlwzCFjTHMIdULIHzu6661228NknkSBGEAh878GPO+AgUqyQn9tY+al0KrsLuDRQVt6pwmeLoqwQ==
   dependencies:
-    "@volar/source-map" "0.34.12"
+    "@volar/source-map" "0.34.16"
 
-"@volar/source-map@0.34.12":
-  version "0.34.12"
-  resolved "http://mirrors.cloud.tencent.com/npm/@volar%2fsource-map/-/source-map-0.34.12.tgz"
-  integrity sha512-07imKws1cz9g3eo0VWXdioNfc1eCjqwK7GsxVuYSc7OCzKASt9PywUW+F39QGB9g2Kewof+PjCVIPeGqGRECTA==
+"@volar/source-map@0.34.16":
+  version "0.34.16"
+  resolved "https://registry.yarnpkg.com/@volar/source-map/-/source-map-0.34.16.tgz#c2f927825604fa0dd7b4ca53292cc6a5dd08f3d7"
+  integrity sha512-50F1XWcVRzKVXqwO7J39hZ4qd/htzHj62dsywz7FfhZZSOaQ43XT3uEy7cBAVgw7gs+qChFaUJAhM1iHb0FyOQ==
 
-"@volar/vue-code-gen@0.34.12":
-  version "0.34.12"
-  resolved "http://mirrors.cloud.tencent.com/npm/@volar%2fvue-code-gen/-/vue-code-gen-0.34.12.tgz"
-  integrity sha512-PFcft62eIvQvcB6H2Z88fouTu2JmYwimORziFGr3LlGriQUEVmyDtqddtb+E+j2wGChtLkh6hf1py94C5VpI/Q==
+"@volar/vue-code-gen@0.34.16":
+  version "0.34.16"
+  resolved "https://registry.yarnpkg.com/@volar/vue-code-gen/-/vue-code-gen-0.34.16.tgz#2678f0762614bae0f0cafc0dbfcc286facbeab6e"
+  integrity sha512-R8OGn26pCQsctXLa6mZi3BIkyXemcrhibTRGrVh1z2TqWMtnCIT/NiAYXR7kAH4UzFEpglOJAIxrjwnodJ7x6w==
   dependencies:
-    "@volar/code-gen" "0.34.12"
-    "@volar/source-map" "0.34.12"
+    "@volar/code-gen" "0.34.16"
+    "@volar/source-map" "0.34.16"
     "@vue/compiler-core" "^3.2.31"
     "@vue/compiler-dom" "^3.2.31"
     "@vue/shared" "^3.2.31"
 
-"@volar/vue-typescript@0.34.12":
-  version "0.34.12"
-  resolved "http://mirrors.cloud.tencent.com/npm/@volar%2fvue-typescript/-/vue-typescript-0.34.12.tgz"
-  integrity sha512-mY5cZ2OFOKt1HcCuoX1ViEsccltX3mdACk/FAjrSZTrilTdVHI1zkmQlrpCSnjmE1qowd8I6YoVt7THCaVrHdg==
+"@volar/vue-typescript@0.34.16":
+  version "0.34.16"
+  resolved "https://registry.yarnpkg.com/@volar/vue-typescript/-/vue-typescript-0.34.16.tgz#016cee6328313c8b4876d3e87747cdcd74a2508f"
+  integrity sha512-Jmo19pKRJAIhbAmr/1974knqKws9FZlnYWuCDvvg9wimKHTFosjDhDysORIMVHZ97og/0idK70iIKbcsyDadvw==
   dependencies:
-    "@volar/code-gen" "0.34.12"
-    "@volar/source-map" "0.34.12"
-    "@volar/vue-code-gen" "0.34.12"
+    "@volar/code-gen" "0.34.16"
+    "@volar/source-map" "0.34.16"
+    "@volar/vue-code-gen" "0.34.16"
     "@vue/compiler-sfc" "^3.2.31"
     "@vue/reactivity" "^3.2.31"
 
@@ -3929,12 +3929,12 @@ vue-demi@*:
   resolved "https://mirrors.cloud.tencent.com/npm/vue-demi/-/vue-demi-0.12.5.tgz#8eeed566a7d86eb090209a11723f887d28aeb2d1"
   integrity sha512-BREuTgTYlUr0zw0EZn3hnhC3I6gPWv+Kwh4MCih6QcAeaTlaIX0DwOVN0wHej7hSvDPecz4jygy/idsgKfW58Q==
 
-vue-tsc@^0.34.7:
-  version "0.34.12"
-  resolved "http://mirrors.cloud.tencent.com/npm/vue-tsc/-/vue-tsc-0.34.12.tgz"
-  integrity sha512-CmuqLXHEW5UvS8UpT2RYom5MzOWBD142PLXxDX0ARdZ/u1oLobA3od4XY2XZACQYCFCzjTvfD1H5wrWwiGwoUA==
+vue-tsc@^0.34.16:
+  version "0.34.16"
+  resolved "https://registry.yarnpkg.com/vue-tsc/-/vue-tsc-0.34.16.tgz#92cc8cc23bc3e979d44bc8ed9a318d46ee5201fa"
+  integrity sha512-9tYBQIOyl3Tz8ZrlYUKtftu5m/wXHfxCalyjR22QzSaUJoBJmZeNOoVs/QEllc0z4ideEZxvvU+pBFdoY3O16A==
   dependencies:
-    "@volar/vue-typescript" "0.34.12"
+    "@volar/vue-typescript" "0.34.16"
 
 vue@^3.2.25:
   version "3.2.33"
