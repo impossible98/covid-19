@@ -1920,10 +1920,10 @@ dot-prop@^5.1.0:
   dependencies:
     is-obj "^2.0.0"
 
-dprint@^0.28.0:
-  version "0.28.0"
-  resolved "https://registry.yarnpkg.com/dprint/-/dprint-0.28.0.tgz#3d80160b2132c52ebb93a79489583b918dbd808c"
-  integrity sha512-HdHnQFlR9GwaRM0SDWkImcJc55VKLqn2UZHNwfl6R0cX98E8n5Zsq2I1z+UrCqSJBVlaKqJx/Lx7La6jCgA7HQ==
+dprint@^0.32.2:
+  version "0.32.2"
+  resolved "https://registry.yarnpkg.com/dprint/-/dprint-0.32.2.tgz#42a4da652fbde7de303ac84a52897938cac4abf1"
+  integrity sha512-cGKnZonCFQkcNbptAtJXlzUOqyiyYoD9pINepJ9PvkFi8iwMLChQDSjhMeqT3DDQf5Rof3pYA5LI/bafPpPknQ==
   dependencies:
     yauzl "=2.10.0"
 
